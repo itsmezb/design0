@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles/style.css">
+  <link rel="stylesheet" href="./styles/nav.css">
+  <link rel="stylesheet" href="./styles/repstyle.css">
+  <script src="https://kit.fontawesome.com/5c4332bb35.js" crossorigin="anonymous"></script>
+  <title>Document</title>
+</head>
+<body>
+
+
+  <header>
+    <img class="logo" src="./logo1.svg" style="height: 150px;" alt="logo">
+    <nav>
+      <ul class="nav__links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Events</a></li>
+      </ul>
+    </nav>
+    <a href="#" class="cta"><button>Contact</button></a>
+  </header>
+
+  
+
+  <div id="container">
+
+   
+    <div class="card_left">
+      <h1>
+        A design realm in which we speak for the better.
+      </h1>
+      <p>Our experts, with years of experience are here to help you to build your miles! </p>
+      <a href="#" "><button class="btn mainbtn">Get Started</button></a>
+      <a href="#" ><button class="btn secbtn">Contact Us</button></a>
+    </div>
+
+    <div class="card_right">
+      <div onclick="cardFunction()" id="card0">
+        <img src="./homebg.jpg" alt="" id="home_bg">
+      </div>
+
+      <!-- <div id="card1"></div> -->
+    </div>
+  </div>
+
+  <a href="#about"><i id="arrow" class="fas fa-arrow-down fa-7x"></i></a>
+
+  <div id="about">
+    <img src="./camaeraman.jpg" id="cameraman" alt="">
+    <div id="content_1">
+      <h1>Who are we?</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur veritatis, temporibus voluptas alias molestiae labore iure possimus dolores modi excepturi. A vero totam ratione delectus assumenda molestias, repudiandae porro corrupti? Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, illum. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum, fuga. Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita repellendus delectus veritatis eum atque minus sequi hic nemo porro veniam.</p>
+      <img src="./arrow_.svg" id="arrow_" alt="">
+    </div>
+  </div>
+
+  <div id="container2">
+    <div class="cardbot1">
+      <img src="./photo-1597514110707-b988d3a08652.jpg" alt="price1" style="width:100%;">
+      <h1>Starter</h1>
+      <p class="price">$9.99</p>
+      <button>BUY NOW</button>
+    </div>
+
+
+    <div class="cardbot">
+      <img src="./photo-1597514110707-b988d3a08652.jpg" alt="price1" style="width:100%;">
+      <h1>BUSINESS</h1>
+      <p class="price">$199.99</p>
+      <button>CONTACT US</button>
+    </div>
+
+
+
+
+    <div class="cardbot1">
+      <img src="./photo-1597514110707-b988d3a08652.jpg" alt="price1" style="width:100%;">
+      <h1>Starter</h1>
+      <p class="price">$59.99</p>
+      <button>BUY NOW</button>
+    </div>
+  </div>
+
+
+  
+  <script>
+    function cardFunction() {
+      document.getElementById("card1").style.top = "28%";
+      document.getElementById("card1").style.right = "20%";
+    }
+  </script>
+  <script src="script.js"></script>
+</body>
+</html>
